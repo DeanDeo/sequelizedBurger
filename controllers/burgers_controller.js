@@ -5,7 +5,7 @@ var db = require("../models");
 
 // get route -> index
 router.get("/", function(req, res) {
-  res.redirect("/burgerforreal");
+  res.redirect("/burger");
 });
 
 router.get("/burger", function(req, res) {
