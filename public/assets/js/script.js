@@ -5,7 +5,7 @@ $(".devour-form").on("submit", function(event) {
   
     //   alert($(this).id);
     $.post("burgers/update/" + id, {
-      id: id
+      id: id 
     }).then(function(data) {
       window.location.replace(data);
     });

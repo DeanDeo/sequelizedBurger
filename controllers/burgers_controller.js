@@ -4,7 +4,7 @@ var router = express.Router();
 var db = require("../models");
 
 // get route -> index
-router.get("/", function (req, res) {
+router.get("/", function(req, res) {
   res.redirect("/burgers");
 });
 
@@ -48,6 +48,5 @@ router.post("/burgers/update/:id", function(req, res) {
     res.json("/");
   });
 });
-
 
 module.exports = router;
