@@ -12,7 +12,7 @@ router.get("/burgers", function(req, res) {
   // express callback response by calling burger.selectAllBurger
   db.Burger.findAll({
     // where: {
-    //   devoured: false
+      
     // }
   }).then(function(data) {
     // console.log(data);
@@ -48,5 +48,7 @@ router.post("/burgers/update/:id", function(req, res) {
     res.json("/");
   });
 });
+
+
 
 module.exports = router;

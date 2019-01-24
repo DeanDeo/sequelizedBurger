@@ -10,3 +10,12 @@ $(".devour-form").on("submit", function(event) {
       window.location.replace(data);
     });
   });
+
+  
+//   function removeElement(){
+//   $(".form-control").on("click", function(event){
+//     event.remove();
+
+    
+//   });
+// }
